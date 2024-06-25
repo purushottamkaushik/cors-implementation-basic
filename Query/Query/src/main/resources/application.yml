@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: query
+  datasource:
+    url: jdbc:mysql://localhost:3306/querydb?createIfNotExists=true
+    username: root
+    password: mysql
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+server:
+  port: 8081

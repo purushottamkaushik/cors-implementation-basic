@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: command-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/commanddb?createIfNotExists=true
+    username: root
+    password: mysql
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+server:
+  port: 8081
